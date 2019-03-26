@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kitty Memory Game
 
-## Available Scripts
+This is a memory game with React. The application's UI has been broken up into components, has a managed component state, and respond to user events.
 
-In the project directory, you can run:
+This is built using Javascript, JQuery, Yarn, and React; for assignment 14 of UMN's Coding Bootcamp. 
 
-### `npm start`
+<!-- ![](public/img/homePage.png) -->
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### How to use locally
 
-### `npm test`
+1. Direct or `cd` yourself in terminal to a root folder where you'd like to test our project. 
+2. Go to https://github.com/HannahSchuelke/redditScraper and clone the repository, or type `git clone git@github.com:HannahSchuelke/redditScraper.git` into that same root folder.  
+3. Type `npm install` also into your terminal from the same folder. 
+4. Type `node server.js` into your terminal to start the server.
+5. Download Mongo at https://www.mongodb.com/download-center.
+6. Open up terminal and enter the `mongod` command
+7. Open up terminal and enter the `mongo` command
+8. Type "http://localhost:3000/" into the URL and you will be able to see my html.
+9.  In "http://localhost:3000/" you may press the button, and it will populate your command line with results.
+10. Go to "http://localhost:3000/scrape" into the URL and you will be able to see the scraping results in your webpage and terminal.
+11. 10. Go to "http://localhost:3000/articles" into the URL and you will be able to see the scraping results in your webpage and terminal.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Repository on Github
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/HannahSchuelke/clickygame
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Deployment on Github
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://hannahschuelke.github.io/clickygame/
 
-### `npm run eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [npm install](https://docs.npmjs.com/cli/install) - Installs package.json and node.modules that app depends on
+* [MongoDB](https://www.mongodb.com/download-center) - Needed for database
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* **Hannah Schuelke** - [HannahSchuelke](https://github.com/HannahSchuelke)

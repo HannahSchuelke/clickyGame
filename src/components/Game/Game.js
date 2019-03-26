@@ -64,6 +64,7 @@ class Game extends Component{
     }
     render(){
         return(
+            
             <div>
                 <Nav score={this.state.score} topScore={this.state.topScore} />
                 <Header />
