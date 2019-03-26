@@ -13,14 +13,14 @@ class Game extends Component{
         topScore: 0
     }
     componentDidMount(){
-        this.setState({icons: this.shuffleIcons(this.state.icons)});
+        this.setState({icons: this.shuffleData(this.state.icons)});
     }
     handleItemClick = id => {
         let guessedCorrectly = false;
         const newData = this.state.icons.map(item => {
             // take every property of the item with spread operator
             const newItem = {...item};
-            if(newItem.id == id){
+            if(newItem.id === id){
                 if(!newItem.clicked){
                     newItem.clicked = true;
                     guessedCorrectly = true;
@@ -35,7 +35,7 @@ class Game extends Component{
         const newScore = score+1;
         const newTopScore = newScore > topScore ? newScore : topScore;
         this.setState({
-            data: this.shuffleData(newData),
+            icons: this.shuffleData(newData),
             score: newScore,
             topScore: newTopScore
         })
@@ -43,12 +43,12 @@ class Game extends Component{
     }
     handleInCorrectGuess = newData =>{
         this.setState({
-            data: this.resetData(newData),
+            icons: this.resetData(newData),
             score: 0
         })
     }
     resetData = newData => {
-        const resetData = data.map(item =>({...item, clicked:false}));
+        const resetData = newData.map(item =>({...item, clicked:false}));
         return this.shuffleData(resetData);
     }
     shuffleData = data => {
@@ -65,10 +65,10 @@ class Game extends Component{
     render(){
         return(
             <div>
-                <Nav score={this.state.score} topScore = {this.state.topScore}></Nav>
+                <Nav score={this.state.score} topScore={this.state.topScore} />
                 <Header />
                 <Container>
-                    {this.state.icons.map(item => {
+                {this.state.icons.map(item => (
                         <ClickItem 
                             key ={item.id}
                             id ={item.id}
@@ -76,10 +76,11 @@ class Game extends Component{
                             handleClick={this.handleItemClick}
                             image={item.image}
                         />
-                    })}
+                        ))}
                 </Container>
-                <Footer></Footer>
+                <Footer />
             </div>
         )
     }
 }
+export default Game;

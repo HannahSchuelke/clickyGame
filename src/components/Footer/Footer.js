@@ -1,14 +1,11 @@
-import React,{ Component} from "react";
+import React from "react";
+// import "./Footer.css";
 
-class Footer extends Component{
-    render(){
-        return(
-            <div>
-                <Nav></Nav>
-                <Header></Header>
-                <Container></Container>
-                <Footer></Footer>
-            </div>
-        )
-    }
-}
+const Footer = props => (
+    <footer className="footer">
+      <h5>Clicky Game!</h5>
+    </footer>
+  );
+  
+  export default Footer;
+  
