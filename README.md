@@ -30,6 +30,10 @@ https://github.com/HannahSchuelke/clickygame
 
 https://hannahschuelke.github.io/clickygame/
 
+## Deployment on Heroku
+
+https://hannahschuelke.github.io/clickygame/
+
 ## Built With
 
 * [npm install](https://docs.npmjs.com/cli/install) - Installs package.json and node.modules that app depends on
