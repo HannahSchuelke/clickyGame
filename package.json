@@ -4,7 +4,6 @@
   "engines": {
     "node": "10.15.0"
   },
-
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
@@ -14,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,4 +41,4 @@
     "url": "https://github.com/HannahSchuelke/clickygame/issues"
   },
   "homepage": "https://hannahschuelke.github.io/clickygame/"
-  }
+}
