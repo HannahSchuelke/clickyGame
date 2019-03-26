@@ -1,62 +1,62 @@
 [
-    {
-      "id": 1,
-      "image": "https://i.pinimg.com/originals/b4/b5/bc/b4b5bc675914885fe46e793988669b38.gif",
-      "clicked": false
-    },
-    {
-      "id": 2,
-      "image": "https://i.pinimg.com/originals/a9/6e/c4/a96ec42400f76e4cacf7726322a044be.gif",
-      "clicked": false
-    },
-    {
-      "id": 3,
-      "image": "http://i.imgur.com/IManyIr.gif",
-      "clicked": false
-    },
-    {
-      "id": 4,
-      "image": "https://img.dropmark.com/Y3yeJ8opmBz6vBGd3kv7xzlKujY=/cropped_animated/cdn/2377/d97f7b41ab64f5d45c33119692a330a7958b4f30/cat-enough.gif",
-      "clicked": false
-    },
-    {
-      "id": 5,
-      "image": "https://media.giphy.com/media/zImL8nVvRr6mY/giphy.gif",
-      "clicked": false
-    },
-    {
-      "id": 6,
-      "image": "https://cdn140.picsart.com/287694391032201.gif?c256x256",
-      "clicked": false
-    },
-    {
-      "id": 7,
-      "image": "https://cdn140.picsart.com/289188773032201.gif?c256x256",
-      "clicked": false
-    },
-    {
-      "id": 8,
-      "image": "https://66.media.tumblr.com/31e60c024311301ae677fefa6c1e2238/tumblr_o9ppnp2kDA1r3gb3zo1_400.gif",
-      "clicked": false
-    },
-    {
-      "id": 9,
-      "image": "https://cdn140.picsart.com/289329903064201.gif?c256x256",
-      "clicked": false
-    },
-    {
-      "id": 10,
-      "image": "https://media1.tenor.com/images/e6de8ec7b0d69401c8f0ddf4dbb21f74/tenor.gif?itemid=7397488",
-      "clicked": false
-    },
-    {
-      "id": 11,
-      "image": "https://media.giphy.com/media/mtku2cOnJZux2/giphy.gif",
-      "clicked": false
-    },
-    {
-      "id": 12,
-      "image": "https://cdn140.picsart.com/288230144024201.gif?c256x256",
-      "clicked": false
-    }
-  ]
+  {
+    "id": 1,
+    "image": "https://i.pinimg.com/originals/b4/b5/bc/b4b5bc675914885fe46e793988669b38.gif",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "https://i.pinimg.com/originals/a9/6e/c4/a96ec42400f76e4cacf7726322a044be.gif",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "http://i.imgur.com/IManyIr.gif",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "https://img.dropmark.com/Y3yeJ8opmBz6vBGd3kv7xzlKujY=/cropped_animated/cdn/2377/d97f7b41ab64f5d45c33119692a330a7958b4f30/cat-enough.gif",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "https://media.giphy.com/media/zImL8nVvRr6mY/giphy.gif",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "https://cdn140.picsart.com/287694391032201.gif?c256x256",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "https://cdn140.picsart.com/289188773032201.gif?c256x256",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "https://66.media.tumblr.com/31e60c024311301ae677fefa6c1e2238/tumblr_o9ppnp2kDA1r3gb3zo1_400.gif",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "https://cdn140.picsart.com/289329903064201.gif?c256x256",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "https://media1.tenor.com/images/e6de8ec7b0d69401c8f0ddf4dbb21f74/tenor.gif?itemid=7397488",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "https://media.giphy.com/media/mtku2cOnJZux2/giphy.gif",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "https://cdn140.picsart.com/288230144024201.gif?c256x256",
+    "clicked": false
+  }
+]

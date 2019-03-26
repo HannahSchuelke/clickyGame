@@ -1,4 +1,4 @@
-import React,{ Component} from "react";
+import React, { Component } from "react";
 import icons from "../../icon.json";
 import Nav from "../Nav";
 import Header from "../Header";
@@ -6,22 +6,22 @@ import Footer from "../Footer";
 import Container from "../Container";
 import ClickItem from "../ClickItem";
 
-class Game extends Component{
+class Game extends Component {
     state = {
         icons,
         score: 0,
         topScore: 0
     }
-    componentDidMount(){
-        this.setState({icons: this.shuffleData(this.state.icons)});
+    componentDidMount() {
+        this.setState({ icons: this.shuffleData(this.state.icons) });
     }
     handleItemClick = id => {
         let guessedCorrectly = false;
         const newData = this.state.icons.map(item => {
             // take every property of the item with spread operator
-            const newItem = {...item};
-            if(newItem.id === id){
-                if(!newItem.clicked){
+            const newItem = { ...item };
+            if (newItem.id === id) {
+                if (!newItem.clicked) {
                     newItem.clicked = true;
                     guessedCorrectly = true;
                 }
@@ -31,8 +31,8 @@ class Game extends Component{
         guessedCorrectly ? this.handleCorrectGuess(newData) : this.handleInCorrectGuess(newData);
     }
     handleCorrectGuess = newData => {
-        const {topScore, score} = this.state;
-        const newScore = score+1;
+        const { topScore, score } = this.state;
+        const newScore = score + 1;
         const newTopScore = newScore > topScore ? newScore : topScore;
         this.setState({
             icons: this.shuffleData(newData),
@@ -41,19 +41,19 @@ class Game extends Component{
         })
 
     }
-    handleInCorrectGuess = newData =>{
+    handleInCorrectGuess = newData => {
         this.setState({
             icons: this.resetData(newData),
             score: 0
         })
     }
     resetData = newData => {
-        const resetData = newData.map(item =>({...item, clicked:false}));
+        const resetData = newData.map(item => ({ ...item, clicked: false }));
         return this.shuffleData(resetData);
     }
     shuffleData = data => {
         let i = data.length - 1;
-        while(i > 0){
+        while (i > 0) {
             const j = Math.floor(Math.random() * (i + 1));
             const temp = data[i];
             data[i] = data[j];
@@ -62,22 +62,22 @@ class Game extends Component{
         }
         return data;
     }
-    render(){
-        return(
-            
+    render() {
+        return (
+
             <div>
                 <Nav score={this.state.score} topScore={this.state.topScore} />
                 <Header />
                 <Container>
-                {this.state.icons.map(item => (
-                        <ClickItem 
-                            key ={item.id}
-                            id ={item.id}
+                    {this.state.icons.map(item => (
+                        <ClickItem
+                            key={item.id}
+                            id={item.id}
                             randomizer={!this.state.score && this.state.topScore}
                             handleClick={this.handleItemClick}
                             image={item.image}
                         />
-                        ))}
+                    ))}
                 </Container>
                 <Footer />
             </div>

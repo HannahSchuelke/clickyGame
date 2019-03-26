@@ -38,8 +38,6 @@ https://kittyclicker.herokuapp.com/
 
 * [npm install yarn](https://github.com/HannahSchuelke/clickygame/pull/new/KittyClicky) - This repo will take you through getting yarn (and your new React app started), step by step.
 
-
-
 ## Author
 
 * **Hannah Schuelke** - [HannahSchuelke](https://github.com/HannahSchuelke)
