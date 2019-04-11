@@ -17,7 +17,8 @@
     "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage": "https://hannahschuelke.github.io/clickygame/"
   },
   "eslintConfig": {
     "extends": "react-app"
