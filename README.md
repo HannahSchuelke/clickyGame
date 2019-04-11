@@ -30,9 +30,6 @@ https://github.com/HannahSchuelke/clickygame
 
 https://hannahschuelke.github.io/clickygame/
 
-## Deployment on Heroku
-
-https://kittyclicker.herokuapp.com/
 
 ## Built With
 
