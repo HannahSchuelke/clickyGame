@@ -1,0 +1,16 @@
+.itemLeft {
+    display: inline; 
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 25%;
+    margin-right: 30px;
+    font-family: Verdana;
+
+} 
+
+.itemRight {
+    display: inline;
+    font-weight: bold;
+    font-family: Verdana;
+    /* font-size: 40%; */
+}

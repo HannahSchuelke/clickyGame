@@ -1,0 +1,45 @@
+{
+  "name": "kittyclickygame",
+  "version": "0.1.0",
+  "engines": {
+    "node": "10.15.0"
+  },
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "homepage": "https://hannahschuelke.github.io/clickygame/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This is a memory game with React. The application's UI has been broken up into components, has a managed component state, and respond to user events.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahSchuelke/clickygame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahSchuelke/clickygame/issues"
+  },
+  "homepage": "https://hannahschuelke.github.io/clickygame/"
+}
