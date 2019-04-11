@@ -5,10 +5,12 @@
     margin-left: 25%;
     margin-right: 30px;
     font-family: Verdana;
+
 } 
 
 .itemRight {
     display: inline;
     font-weight: bold;
     font-family: Verdana;
+    /* font-size: 40%; */
 }
